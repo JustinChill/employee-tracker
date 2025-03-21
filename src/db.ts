@@ -1,5 +1,7 @@
 import pkg from 'pg';
 const { Client } = pkg;
+import dotenv from 'dotenv';
+dotenv.config();
 
 const db = new Client({
 	host: 'localhost',
